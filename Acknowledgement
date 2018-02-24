@@ -1,0 +1,7 @@
+# Acknowledgement
+
+This project used secondary data from online resources publicly available in APNIC and RIPE NCC. They are listed below:
+
+1. Prefix delegation globally by the RIRs: https://labs.apnic.net/delegated-nro-extended
+
+2. Global Routing table: https://www.ripe.net/analyse/internet-measurements/routing-information-service-ris/ris-raw-data
