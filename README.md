@@ -11,10 +11,21 @@ This project is created as part of the APNIC IPv6 Hackathon 2018 held during APR
 
 # Description
 
-The plan is to import NRO delegation database: https://labs.apnic.net/delegated-nro-extended and purse the IPv6 delegation information to a database from where information like delegation per country can be printed. Import the routing table from RIPE NCC's RIS DB: https://www.ripe.net/analyse/internet-measurements/routing-information-service-ris/ris-raw-data and purse the visible IPv6 prefixes in global routing table. A web interface is prepared where users select a economy and it will collect and display
+The plan is to import NRO delegation database: https://labs.apnic.net/delegated-nro-extended and store the IPv6 delegation information to a database from where information like delegation per country can be printed. Import the routing table from RIPE NCC's RIS DB: https://www.ripe.net/analyse/internet-measurements/routing-information-service-ris/ris-raw-data and store the visible IPv6 prefixes in global routing table. A web interface is prepared where users select a economy and it will collect and display
 
 1. List of v6 prefixes delegated to this economy
 2. List of prefixes visible in global routing table
 3. Date of first prefix delegeation
 
-#
+# Progress
+
+The project was not completed within the time limits. Two databases are prepared from the delegated prefixes and visible prefixes in the routing table using PostgreSQL. A webpage is created using php.
+
+# Improvement Scopes
+
+Display v6 deployment statistics from secondary sources
+1. APNIC
+2. Google
+3. Cisco 6lab
+4. Vyncke (vyncke.org)
+5. Mark Prior (mrp.net)
