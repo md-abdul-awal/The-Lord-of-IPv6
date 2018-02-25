@@ -1,0 +1,28 @@
+Python Script to Read MRT File
+==============================  
+import subprocess, shlex
+bgpdump = '/usr/bin/bgpdump'
+output_file = '/home/sdn/wibble/mrt.readable'
+source_file = '/home/sdn/wibble/latest-bview.mrt'
+cmd = shlex.split('%s -m -O %s %s' % (bgpdump, output_file,source_file))
+subprocess.call(cmd)
+
+
+
+Some Useful Shell Commands
+===========================
+grep '::/' mrt.readable | more > mrt_final_ipv6.readable
+sed -ifoo -e 's/\\n/"\\n/g' finalMrt.csv 
+
+apt-get install postgresql postgresql-contrib
+sudo -i -u postgres
+sudo usermod -aG sudo postgres
+sudo -u postgres createuser --interactive
+sudo -u postgres psql
+
+
+pip install mrtparse
+sudo pip install mrtparse
+pip install mrtparse
+git clone https://github.com/YoshiyukiYamauchi/mrtparse.git
+cd mrtparse
