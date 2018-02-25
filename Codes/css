@@ -1,1 +1,43 @@
+* {margin:0; padding:0}
+body {background:#509090;
+	font-family:arial;
+	font-style:regular;
+	font-size:12px;
+	line-height:18px;
+	background-image: url('images/pattern1.png')}
+	
+h1{font-style:bold;
+	font-size:16px;
+	line-height:20px;}
+	
+table{font-size:14px;
+	line-height:20px;}
 
+img {max-width:100%;
+	border:none;}
+	
+a{text-decoration:none;}
+a:visited{text-decoration:none;}
+a:hover{text-decoration:none;}
+
+.stracture{width:960px;
+			margin:0px auto;
+			display:block;
+			}
+
+.fix {overflow:hidden;}
+
+.main_area{width:960px;
+			float: left; 
+			background:#FFF;
+			border-radius:0px 0px 0px 0px}
+
+.main_text{width:713px; margin-left:5px; padding:20px 20px; float:left; margin-top:20px; margin-bottom:30px; overflow:hidden; text-align:justify; line-height:25px; border-right:1px solid #5f7f7c}
+
+.main_text h1{font-size:20px; margin-top:10px; margin-bottom:20px}
+.main_text h2{font-size:16px; margin-top:20px; margin-bottom:10px}
+.main_text h3{font-size:14px; margin-top:10px; margin-bottom:10px}
+.main_text p{font-size:14px; margin-top:10px; margin-bottom:10px}
+.main_text b{font-size:14px;}
+
+.main_text img{margin:0px auto; margin-top:10px; margin-bottom:10px}
